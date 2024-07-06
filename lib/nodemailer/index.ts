@@ -91,7 +91,7 @@ const transporter = nodemailer.createTransport({
 export const sendEmail = async (emailContent: EmailContent, sendTo: string[]) => {
   console.log('xxxx')
   const mailOptions = {
-    from:process.env.MONGODB_URI,
+    from:process.env.EMAIL_USER,
     to: sendTo,
     html: emailContent.body,
     subject: emailContent.subject,
