@@ -1,6 +1,6 @@
-# PriceTracker
+# EasyPrice
 
-PriceTracker is a web application designed to help users track the prices of various products over time. It allows users to monitor price changes and get notifications when the price drops to a desired level.
+EasyPrice is a web application designed to help users track the prices of various products over time. It allows users to monitor price changes and get notifications when the price drops to a desired level.
 
 ## Features
 
