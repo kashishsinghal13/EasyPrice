@@ -1,10 +1,10 @@
 import Searchbar from "@/components/Searchbar"
 import Image from "next/image"
-import { fetchAllProducts } from "@/lib/actions"
 import ProductCard from "@/components/ProductCard"
 import { Product } from "@/types";
+import { fetchAllProducts } from "@/lib/actions";
 
-
+export const revalidate = 0; 
 
 const Home = async () => {
   
