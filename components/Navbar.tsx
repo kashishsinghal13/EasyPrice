@@ -1,11 +1,11 @@
 import Image from 'next/image'
 import Link from 'next/link'
 
-// const navIcons = [
+const navIcons: any[] = [
 //   { src: '/assets/icons/search.svg', alt: 'search' },
 //   { src: '/assets/icons/black-heart.svg', alt: 'heart' },
 //   { src: '/assets/icons/user.svg', alt: 'user' },
-// ]
+]
 
 const Navbar = () => {
   return (
@@ -25,7 +25,7 @@ const Navbar = () => {
         </Link>
 
         <div className="flex items-center gap-5">
-          {navIcons.map((icon) => (
+          {navIcons?.map((icon) => (
             <Image 
               key={icon.alt}
               src={icon.src}
